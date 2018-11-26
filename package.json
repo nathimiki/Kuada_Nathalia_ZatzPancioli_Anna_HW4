@@ -1,0 +1,31 @@
+{
+  "name": "kuada_nathalia_zatzpancioli_anna_hw4",
+  "version": "1.0.0",
+  "description": "Roku 'Flashback' microsite",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathimiki/Kuada_Nathalia_ZatzPancioli_Anna_HW4.git"
+  },
+  "keywords": [
+    "Roku",
+    "Design",
+    "Interactive",
+    "App",
+    "Movies",
+    "Music",
+    "TV"
+  ],
+  "author": "Anna Carolina Zatz Pancioli and Nathalia Miki Kuada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathimiki/Kuada_Nathalia_ZatzPancioli_Anna_HW4/issues"
+  },
+  "homepage": "https://github.com/nathimiki/Kuada_Nathalia_ZatzPancioli_Anna_HW4#readme",
+  "dependencies": {
+    "node": "^11.2.0"
+  }
+}
