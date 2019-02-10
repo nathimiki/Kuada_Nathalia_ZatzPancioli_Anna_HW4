@@ -26,10 +26,10 @@
   },
   "homepage": "https://github.com/nathimiki/Kuada_Nathalia_ZatzPancioli_Anna_HW4#readme",
   "dependencies": {
-    "gulp": "^4.0.0",
-    "node-sass": "^4.10.0"
+    "node-sass": "^4.11.0"
   },
   "devDependencies": {
+    "gulp": "^4.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-watch-sass": "^1.4.1"
   }
