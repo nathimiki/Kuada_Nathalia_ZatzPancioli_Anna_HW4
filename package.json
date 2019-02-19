@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/nathimiki/Kuada_Nathalia_ZatzPancioli_Anna_HW4#readme",
   "dependencies": {
+    "dependencies": "0.0.1",
     "node-sass": "^4.11.0"
   },
   "devDependencies": {
