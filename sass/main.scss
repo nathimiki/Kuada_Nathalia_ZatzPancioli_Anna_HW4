@@ -1,14 +1,52 @@
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ostrich_sansblack';
+    src: url('../fonts/ostrichsans-black-webfont.woff2') format('woff2'),
+         url('../fonts/ostrichsans-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ostrich_sansmedium';
+    src: url('../fonts/ostrichsans-medium-webfont.woff2') format('woff2'),
+         url('../fonts/ostrichsans-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 body{
     width: 100%;
     height: auto;
     margin: 0 auto;
     background: #0e0e0e;
     color: white;
+    font-family: 'open_sanslight', Helvetica, Arial, sans-serif;
+}
+
+h1{
+    font-family: 'ostrich_sansmedium', Helvetica, Arial, sans-serif;
 }
 
 .row{
     max-width: 100%;
-    border: 1px solid white;
 }
 
 li{
@@ -184,6 +222,15 @@ nav{
     padding-top: 3%;
 }
 
+.titleAdded{
+    border-bottom: 1px solid white;
+    margin-bottom: 3%;
+}
+
+.homeContainer{
+    margin-left: 1%;
+    margin-right: 1%;
+}
 
 
 

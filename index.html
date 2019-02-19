@@ -71,9 +71,9 @@
         </div>
     </section>-->
 
-    <section id="homeContainer3" class="row">
+    <section class="homeContainer" class="row">
         <div class="small-12 medium-12 large-12 columns" id="yearContainer">
-            <h1 id="year">Year</h1>
+                <div class="titleAdded"><h1>Year</h1></div>
             <ul>
                 <li v-for="video in videodata">
                     <a :href="video.video_url" v-on:click="loadMovie">
@@ -84,9 +84,9 @@
         </div>
     </section>
 
-    <section id="homeContainer4" class="row">
+    <section class="homeContainer" class="row">
         <div class="small-12 medium-12 large-12 columns" id="recentlyContainer">
-            <h1 id="recentlyAdded">Recently Added</h1>
+            <div class="titleAdded"><h1>Recently Added</h1></div>
             <ul>
                 <li v-for="video in videodata">
                     <a :href="video.video_url" v-on:click="loadMovie">
@@ -97,9 +97,9 @@
         </div>
     </section>
 
-    <section id="homeContainer5" class="row">
+    <section class="homeContainer" class="row">
         <div class="small-12 medium-12 large-12 columns" id="parentsContainer">
-            <h1 id="parents">Parents</h1>
+            <div class="titleAdded"><h1>Parents</h1></div>
             <ul>
                 <li v-for="video in videodata">
                     <a :href="video.video_url" v-on:click="loadMovie">
@@ -110,9 +110,9 @@
         </div>
     </section>
 
-    <section id="homeContainer6" class="row">
+    <section class="homeContainer" class="row">
         <div class="small-12 medium-12 large-12 columns" id="kidsContainer">
-            <h1 id="kids">Kids</h1>
+                <div class="titleAdded"><h1>Kids</h1></div>
             <ul>
                 <li v-for="video in videodata">
                     <a :href="video.video_url" v-on:click="loadMovie">
